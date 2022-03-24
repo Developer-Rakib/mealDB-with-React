@@ -8,7 +8,7 @@ const Cart = ({ cartItem }) => {
     return (
         <div className='cart-container'>
             <img src={strMealThumb} alt="" />
-            <div className='px-4'>
+            <div className='cart-item-name'>
                 <h5 className='mt-2'>{strMeal}</h5>
                 <h5 className=''>Price: 230$</h5>
             </div>

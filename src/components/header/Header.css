@@ -5,6 +5,7 @@
 	z-index: 100;
 
 }
+.nav-container img{}
 nav{
     height: 80px;
     align-items: center;
@@ -42,4 +43,18 @@ nav li span {
 nav li:hover span{
 	color: #ff8205;
 	background-color: white;
+}
+
+@media (max-width: 600px) {
+	nav {
+		height: 60px;
+		align-items: center;
+	}
+	.nav-container img {
+		width: 165px;
+	}
+	nav li {
+		margin: 0 9px;
+		font-size: 13px;
+	}
 }

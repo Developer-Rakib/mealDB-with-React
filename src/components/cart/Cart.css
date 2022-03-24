@@ -4,7 +4,33 @@
     border-radius: 10px;
     margin: 10px 50px;
 }
+.cart-item-name {
+	padding: 0 49px;
+}
 .cart-container img{
    width: 80px;
    border-radius: 8px;
+}
+
+@media (max-width:600px) {
+    .cart-container {
+        margin: 16px 10px;
+    }
+    .cart-container img {
+        width: 85px;
+        border-radius: 8px;
+        height: 90px;
+    }
+    .cart-container h5 {
+        font-size: 17px;
+    }
+    .cart-item-name {
+        padding: 0;
+        padding-left: 8px;
+        padding-right: 5px;
+    }
+    .cart-container p {
+        margin-bottom: 0;
+        font-size: 14px;
+    }
 }

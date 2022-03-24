@@ -41,3 +41,22 @@
 	padding: 7px 17px;
     
 }
+
+@media (max-width: 600px) {
+	.meal-container img {
+		width: 225px;
+		border-radius: 8px;
+	}
+	.meal-container {
+		width: 239px;
+	}
+	.meal-container p {
+		font-size: 14px;
+	}
+	.cart-btn {
+		padding: 3px 12px;
+	}
+	.cart-btn svg {
+		font-size: 18px;
+	}
+}

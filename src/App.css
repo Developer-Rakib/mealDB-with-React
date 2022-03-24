@@ -8,6 +8,7 @@
   position: sticky;
   top: 0px;
   background-color: rgba(255, 255, 255, 0.568);
+  border-radius: 5px;
 }
 .close-icon svg {
 	background:none;
@@ -17,4 +18,11 @@
 .cart-items{
   max-height: 60vh;
   width: 600px;
+}
+
+@media (max-width: 600px) {
+	.cart-items {
+    max-height: 60vh;
+    width: 100%;
+  }
 }
