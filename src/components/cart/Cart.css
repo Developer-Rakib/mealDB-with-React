@@ -1,0 +1,10 @@
+.cart-container{
+    display: flex;
+    border: 2px solid rgb(212, 212, 212);
+    border-radius: 10px;
+    margin: 10px;
+}
+.cart-container img{
+   width: 80px;
+   border-radius: 8px;
+}

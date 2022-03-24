@@ -1,0 +1,37 @@
+.nav-container{
+    background-color: #23180d;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+
+}
+nav{
+    height: 80px;
+    align-items: center;
+}
+nav ul {
+	margin-bottom: 0;
+}
+nav li {
+	color: white;
+	margin: 0 20px;
+	text-decoration: none;
+	position: relative;
+	font-weight: 600;
+	list-style: none;
+	display: inline-block;
+	cursor: pointer;
+}
+nav li:hover {
+	color: #ff8205;
+}
+nav li span {
+	font-size: 12px;
+	position: absolute;
+	top: -14px;
+	background: #ff8205;
+	padding: 2px 7px;
+	border-radius: 10px;
+	right: -6px;
+	color: white;
+}

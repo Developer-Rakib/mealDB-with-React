@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+.close-icon {
+	background: white;
+	border: none;
+	outline: none;
+}
+.close-icon svg {
+	background: white;
+	font-size: 23px;
+}

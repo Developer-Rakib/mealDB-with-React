@@ -1,0 +1,43 @@
+.meal-container {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	border-radius: 8px;
+	width: 280px;
+	text-align: left;
+	padding: 7px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.meal-container img {
+	width: 265px;
+	border-radius: 8px;
+}
+.meal-container h5 {
+	font-size: 25px;
+	margin-top: 11px;
+	font-weight: 600;
+}
+.meal-container p {
+	font-family: 'Poppins', sans-serif;
+}
+.cart-btn {
+	position: absolute;
+	bottom: 8px;
+	border: none;
+	padding: 6px 16px;
+	border-radius: 6px;
+    transition: .1s;
+}
+.cart-btn svg {
+	font-size: 23px;
+}
+.cart-btn:hover{
+    background-color: #743d07;
+    color: white;
+}
+/* .cart-btn svg{
+    transition: .2s;
+} */
+.cart-btn:active{
+	padding: 7px 17px;
+    
+}
