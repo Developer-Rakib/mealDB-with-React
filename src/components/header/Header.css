@@ -21,17 +21,25 @@ nav li {
 	list-style: none;
 	display: inline-block;
 	cursor: pointer;
+	transition: .3s;
 }
-nav li:hover {
+nav li:hover{
 	color: #ff8205;
 }
+
 nav li span {
 	font-size: 12px;
 	position: absolute;
-	top: -14px;
+	top: -12px;
 	background: #ff8205;
-	padding: 2px 7px;
-	border-radius: 10px;
+	padding: 1px 7px;
+	border-radius: 11px;
 	right: -6px;
 	color: white;
+	transition: .3s;
+
+}
+nav li:hover span{
+	color: #ff8205;
+	background-color: white;
 }

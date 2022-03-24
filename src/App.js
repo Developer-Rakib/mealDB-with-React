@@ -53,7 +53,7 @@ function App() {
           contentLabel="Example Modal"
         >
           <button className='close-icon' onClick={closeModal}> <AiOutlineCloseSquare /> </button>
-          <div>
+          <div className='cart-items'>
             {
               cartItems.map(cartItem => <Cart key={cartItem.idMeal} cartItem={cartItem}></Cart>)
             }
